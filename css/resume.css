@@ -24,7 +24,7 @@ h4,
 h5,
 h6 {
   font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  font-weight: 700;
+  font-weight: 300;
   text-transform: uppercase;
   color: #343a40;
 }
@@ -35,7 +35,7 @@ h1 {
 }
 
 h2 {
-  font-size: 3.5rem;
+  font-size: 3.0rem;
 }
 
 h3 {
@@ -152,8 +152,8 @@ p.lead {
 }
 
 section.resume-section {
-  padding-top: 5rem !important;
-  padding-bottom: 5rem !important;
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
   max-width: 75rem;
 }
 
@@ -200,6 +200,54 @@ a:hover, a:focus, a:active {
 ul.none {
 	list-style-type:none;
 }
+div.gallery {
+  margin: 10px;
+  border: 2px solid #28a745;
+  float: left;
+  width: 120px;
+box-shadow: 5px 5px #888888;
+border-radius: 25px;
+}
 
+div.gallery:hover {
+  border: 1px solid #fff;
+}
+
+div.gallery img {
+  width: 75%;
+  height: 100px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+color:black;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+margin-top: 2px;
+  width: 50%;
+}
+
+
+div.gallery2 {
+  margin: 5px;
+  border: 1px solid #28a745;
+  float: left;
+  width: auto;
+box-shadow: 5px 5px #888888;
+}
+
+div.gallery2:hover {
+  border: 1px solid #fff;
+}
+
+div.gallery2 img {
+  width: 100%;
+  height: 200px;
+}
 
 
