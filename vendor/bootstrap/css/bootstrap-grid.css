@@ -1922,6 +1922,7 @@ html {
 .mb-0,
 .my-0 {
   margin-bottom: 0 !important;
+  margin-top: 1rem;
 }
 
 .ml-0,
