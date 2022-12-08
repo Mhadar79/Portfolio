@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  padding-top: 54px;
+  padding-top: 30px;
   color: #868e96;
 }
 
@@ -23,9 +23,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  font-weight: 300;
-  text-transform: uppercase;
+  font-family:'Arial, sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-weight: 250;
   color: #343a40;
 }
 
@@ -152,9 +151,9 @@ p.lead {
 }
 
 section.resume-section {
-  padding-top: 2rem !important;
-  padding-bottom: 2rem !important;
-  max-width: 75rem;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+  max-width: 80rem;
 }
 
 section.resume-section .resume-item .resume-date {
@@ -163,7 +162,7 @@ section.resume-section .resume-item .resume-date {
 
 @media (min-width: 768px) {
   section.resume-section {
-    min-height: 100vh;
+    min-height: 100px;
   }
   section.resume-section .resume-item .resume-date {
     min-width: 18rem;
